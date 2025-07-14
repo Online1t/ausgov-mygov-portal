@@ -2,44 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-/* myGov Government Portal Design System - Official Australian Government Styling */
+/* myGov Official Design System - Exact Color Matching */
 
 @layer base {
   :root {
-    /* myGov Brand Colors */
-    --mygov-teal: 185 100% 35%;
-    --mygov-teal-dark: 185 100% 25%;
-    --mygov-content-bg: 30 20% 95%;
-    --mygov-footer-bg: 210 15% 15%;
+    /* Official myGov Colors */
+    --mygov-blue: 210 100% 32%;           /* #0055A4 */
+    --mygov-light-blue: 197 100% 47%;     /* #00AEEF */
+    --mygov-background: 0 0% 96%;          /* #F5F5F5 */
+    --mygov-footer-dark: 0 0% 10%;         /* #1A1A1A */
+    --mygov-text-primary: 0 0% 20%;        /* #333333 */
+    --mygov-text-secondary: 0 0% 40%;      /* #666666 */
     
-    /* Official Government Colors */
-    --background: 30 20% 95%;
-    --foreground: 210 15% 15%;
+    /* Base theme colors */
+    --background: 0 0% 96%;
+    --foreground: 0 0% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 15% 15%;
+    --card-foreground: 0 0% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 15% 15%;
+    --popover-foreground: 0 0% 20%;
 
-    --primary: 185 100% 35%;
+    --primary: 210 100% 32%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 100%;
-    --secondary-foreground: 210 15% 15%;
+    --secondary-foreground: 0 0% 20%;
 
-    --muted: 30 20% 95%;
-    --muted-foreground: 210 15% 45%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 185 100% 35%;
+    --accent: 197 100% 47%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 20% 85%;
+    --border: 0 0% 90%;
     --input: 0 0% 100%;
-    --ring: 185 100% 35%;
+    --ring: 210 100% 32%;
 
     --radius: 0.25rem;
 

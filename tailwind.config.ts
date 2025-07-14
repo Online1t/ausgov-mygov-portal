@@ -53,10 +53,12 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				'mygov': {
-					'teal': 'hsl(var(--mygov-teal))',
-					'teal-dark': 'hsl(var(--mygov-teal-dark))',
-					'content-bg': 'hsl(var(--mygov-content-bg))',
-					'footer-bg': 'hsl(var(--mygov-footer-bg))'
+					'blue': 'hsl(var(--mygov-blue))',
+					'light-blue': 'hsl(var(--mygov-light-blue))',
+					'background': 'hsl(var(--mygov-background))',
+					'footer-dark': 'hsl(var(--mygov-footer-dark))',
+					'text-primary': 'hsl(var(--mygov-text-primary))',
+					'text-secondary': 'hsl(var(--mygov-text-secondary))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
