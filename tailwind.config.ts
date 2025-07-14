@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'mygov': {
+					'teal': 'hsl(var(--mygov-teal))',
+					'teal-dark': 'hsl(var(--mygov-teal-dark))',
+					'content-bg': 'hsl(var(--mygov-content-bg))',
+					'footer-bg': 'hsl(var(--mygov-footer-bg))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
