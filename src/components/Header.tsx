@@ -14,7 +14,7 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <Link to="/" className="flex items-center">
               <img 
-                src="/lovable-uploads/43066187-6405-4d52-a24f-24378c5d209e.png" 
+                src="/lovable-uploads/5acabbd1-aa0f-4300-928d-1ddc9d9a9999.png" 
                 alt="Australian Government myGov" 
                 className="h-12"
               />
