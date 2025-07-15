@@ -22,18 +22,10 @@ const Footer = () => {
           {/* Left side - Government branding */}
           <div className="flex items-center space-x-4">
             <img 
-              src={australianCoatOfArms} 
-              alt="Australian Government" 
-              className="h-12 w-12"
+              src="/lovable-uploads/43066187-6405-4d52-a24f-24378c5d209e.png" 
+              alt="Australian Government myGov" 
+              className="h-12"
             />
-            <div className="flex items-center space-x-3">
-              {/* Double white arrow design */}
-              <div className="flex items-center">
-                <div className="w-0 h-0 border-l-[14px] border-l-white border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent"></div>
-                <div className="w-0 h-0 border-l-[14px] border-l-white border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
-              </div>
-              <span className="text-3xl font-normal tracking-wide text-white">myGov</span>
-            </div>
           </div>
 
           {/* Right side - Acknowledgment */}

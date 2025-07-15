@@ -12,27 +12,13 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Left side - Government branding */}
           <div className="flex items-center space-x-4">
-            {/* Australian Government logo */}
-            <Link to="/" className="flex items-center space-x-3">
+            <Link to="/" className="flex items-center">
               <img 
-                src={australianCoatOfArms} 
-                alt="Australian Government" 
-                className="h-12 w-12"
+                src="/lovable-uploads/43066187-6405-4d52-a24f-24378c5d209e.png" 
+                alt="Australian Government myGov" 
+                className="h-12"
               />
-              <div className="flex flex-col text-sm leading-tight">
-                <span className="font-medium text-white">Australian Government</span>
-              </div>
             </Link>
-            
-            {/* myGov logo with exact styling */}
-            <div className="flex items-center space-x-3 ml-8">
-              {/* Double white arrow design - exactly as in image */}
-              <div className="flex items-center">
-                <div className="w-0 h-0 border-l-[14px] border-l-white border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent"></div>
-                <div className="w-0 h-0 border-l-[14px] border-l-white border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1"></div>
-              </div>
-              <span className="text-3xl font-normal tracking-wide text-white">myGov</span>
-            </div>
           </div>
 
           {/* Right side - Navigation and Help */}
