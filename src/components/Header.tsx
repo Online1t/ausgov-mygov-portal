@@ -7,7 +7,7 @@ const Header = () => {
   const isHomePage = location.pathname === "/home";
 
   return (
-    <header className="bg-sky-300/70 backdrop-blur-sm text-white">
+    <header className="bg-cyan-300 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Left side - Government branding */}
@@ -16,7 +16,7 @@ const Header = () => {
               <img 
                 src="/lovable-uploads/5acabbd1-aa0f-4300-928d-1ddc9d9a9999.png" 
                 alt="Australian Government myGov" 
-                className="h-12"
+                className="h-16 w-auto font-bold"
               />
             </Link>
           </div>
