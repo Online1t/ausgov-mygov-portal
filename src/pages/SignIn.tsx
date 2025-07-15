@@ -68,7 +68,7 @@ const SignIn = () => {
   return <Layout>
       <div className="min-h-[calc(100vh-200px)] bg-mygov-background flex items-center justify-center px-4 py-16">
         <Card className="w-full max-w-md">
-          <CardHeader className="text-center pb-6">
+          <CardHeader className="pb-6 text-left text-black text-2xl font-semibold">
             <CardTitle className="text-mygov-text-primary text-left text-black font-bold text-4xl">
               Sign in with myGov
             </CardTitle>
