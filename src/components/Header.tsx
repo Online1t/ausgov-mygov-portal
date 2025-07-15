@@ -7,7 +7,7 @@ const Header = () => {
   const isHomePage = location.pathname === "/home";
 
   return (
-    <header className="bg-mygov-blue text-white">
+    <header className="bg-sky-300/70 backdrop-blur-sm text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Left side - Government branding */}
@@ -33,7 +33,7 @@ const Header = () => {
             )}
             <Button 
               variant="ghost" 
-              className="text-mygov-light-blue hover:bg-white/10 hover:text-mygov-light-blue font-medium"
+              className="text-blue-600 hover:bg-white/20 hover:text-blue-700 font-medium underline"
             >
               Help
             </Button>
