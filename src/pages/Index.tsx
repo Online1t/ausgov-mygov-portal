@@ -1,12 +1,20 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { sessionManager } from "@/utils/sessionManager";
 
 const Index = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Redirect to sign-in page by default
-    navigate("/signin");
+    // Load session from storage first
+    sessionManager.loadFromStorage();
+    
+    // Check if user has valid session
+    if (sessionManager.isSessionValid()) {
+      navigate("/home");
+    } else {
+      navigate("/signin");
+    }
   }, [navigate]);
 
   return null;
